@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FirebaseDatabase
+import FirebaseAuth
 
 class CurrentUser {
     
@@ -19,13 +21,13 @@ class CurrentUser {
      README. DO NOT UNCOMMENT THE ONES WITHIN THE NEXT TODO:
      */
     
-//    let dbRef = FIRDatabase.database().reference()
-//
-//    init() {
-//        let currentUser = FIRAuth.auth()?.currentUser
-//        username = currentUser?.displayName
-//        id = currentUser?.uid
-//    }
+    let dbRef = Database.database().reference()
+
+    init() {
+        let currentUser = Auth.auth().currentUser
+        username = currentUser?.displayName
+        id = currentUser?.uid
+    }
 
 
     
@@ -39,6 +41,14 @@ class CurrentUser {
     func getReadPostIDs(completion: @escaping ([String]) -> Void) {
         var postArray: [String] = []
         // YOUR CODE HERE
+        dbRef.child("Users").child(id).child("readPosts").observeSingleEvent(of: .value) { (snapshot) in
+            if let value = snapshot.value as? [String:AnyObject] {
+                for key in value.keys {
+                    postArray.append(value[key] as! String)
+                }
+            }
+            completion(postArray)
+        }
     }
     
     /*
@@ -50,6 +60,8 @@ class CurrentUser {
      */
     func addNewReadPost(postID: String) {
         // YOUR CODE HERE
+        readPostIDs?.append(postID)
+        dbRef.child("Users").child(id).child("readPosts").childByAutoId().setValue(postID)
     }
     
 }

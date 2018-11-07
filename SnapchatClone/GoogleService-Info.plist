@@ -7,34 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1050805151251-77lphu31tjbj93gd2ft55c5ja65lqlq4.apps.googleusercontent.com</string>
+	<string>972880581354-g8hp99t261akabloifs5qmn2a1rqoug9.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1050805151251-77lphu31tjbj93gd2ft55c5ja65lqlq4</string>
+	<string>com.googleusercontent.apps.972880581354-g8hp99t261akabloifs5qmn2a1rqoug9</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBlOjlqijBWoSWs860GzZZcRhmkGvN4taI</string>
+	<string>AIzaSyDZhpZa4qM19TcUvkG57Te8zFcRhzqxnsI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1050805151251</string>
+	<string>972880581354</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.iosdecal.collincao.HW3</string>
+	<string>org.iosdecal.serenawu.snapchatClone</string>
 	<key>PROJECT_ID</key>
-	<string>snapchat-clone-3e3e9</string>
+	<string>snapchatclone-12a91</string>
 	<key>STORAGE_BUCKET</key>
-	<string>snapchat-clone-3e3e9.appspot.com</string>
+	<string>snapchatclone-12a91.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1050805151251:ios:12063c87fe5f135a</string>
+	<string>1:972880581354:ios:f120bd6ae8f55d55</string>
 	<key>DATABASE_URL</key>
-	<string>https://snapchat-clone-3e3e9.firebaseio.com</string>
+	<string>https://snapchatclone-12a91.firebaseio.com</string>
 </dict>
 </plist>

@@ -227,7 +227,6 @@
 				TargetAttributes = {
 					4196F2C61E6509E8009916E4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9A65D9YZMC;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -419,10 +418,10 @@
 			baseConfigurationReference = 70C2AE988E7813EF99A551C9 /* Pods-SnapchatProject.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9A65D9YZMC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SnapchatClone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.collincao.HW3;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.serenawu.snapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -539,10 +538,10 @@
 			baseConfigurationReference = 840A512C106A82AD29A2B44E /* Pods-SnapchatProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9A65D9YZMC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SnapchatClone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.collincao.HW3;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.serenawu.snapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -554,10 +553,10 @@
 			baseConfigurationReference = 9D8D08939E93DE8E03EA4BC3 /* Pods-SnapchatProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9A65D9YZMC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/SnapchatClone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.collincao.HW3;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.serenawu.snapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

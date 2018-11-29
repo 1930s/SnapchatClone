@@ -150,8 +150,5 @@ See how much easier that was with a little help? Again, you're welcome. Now, for
 
 Congratulations!! You've finally connected your app to your very own customized database. Wasn't that fun? This concludes this week's homework. Later in the class, you'll be replacing the static images with an embed camera, and instead pull from/post to a shared database so you can send snaps to fellow classmates.
 
-## Submission
-Submit to "hw4: Snapchat clone part 2" on Gradescope. We'll check that posts persist to your app between app sessions.
-
 
 
